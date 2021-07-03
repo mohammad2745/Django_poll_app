@@ -15,21 +15,21 @@ Django poll app is a full featured polling app. You have to register in this app
 <h4>or simply download using the url below</h4>
 <code>https://github.com/devmahmud/Django-poll-app</code><br>
 
-<h2>To migrate the database open terminal in project directory and type</h2>
+<h4>To migrate the database open terminal in project directory and type</h4>
 <code>python manage.py makemigrations</code><br>
 <code>python manage.py migrate</code>
 
-<h2>To use admin panel you need to create superuser using this command </h2>
+<h4>To use admin panel you need to create superuser using this command </h4>
 <code>python manage.py createsuperuser</code>
 
-<h2>To Create some dummy text data for your app follow the step below:</h2>
+<h4>To Create some dummy text data for your app follow the step below:</h4>
 <code>pip install faker</code>
 <code>python manage.py shell</code>
 <code>import seeder</code>
 <code>seeder.seed_all(30)</code>
 <p>Here 30 is a number of entry. You can use it as your own</p>
 
-<h2> To run the program in local server use the following command </h2>
+<h4> To run the program in local server use the following command </h4>
 <code>python manage.py runserver</code>
 
 <p>Then go to http://127.0.0.1:8000 in your browser</p>
